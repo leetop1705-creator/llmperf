@@ -53,7 +53,8 @@ python token_benchmark_ray.py \
 --num-concurrent-requests 1 \
 --results-dir "result_outputs" \
 --llm-api openai \
---additional-sampling-params '{}'
+--additional-sampling-params '{}' \
+--tokenizer "./tokenizers/llama-tokenizer"
 
 ```
 
@@ -72,7 +73,8 @@ python token_benchmark_ray.py \
 --num-concurrent-requests 1 \
 --results-dir "result_outputs" \
 --llm-api anthropic \
---additional-sampling-params '{}'
+--additional-sampling-params '{}' \
+--tokenizer "./tokenizers/llama-tokenizer"
 
 ```
 
@@ -92,7 +94,8 @@ python token_benchmark_ray.py \
 --num-concurrent-requests 1 \
 --results-dir "result_outputs" \
 --llm-api "litellm" \
---additional-sampling-params '{}'
+--additional-sampling-params '{}' \
+--tokenizer "./tokenizers/llama-tokenizer"
 
 ```
 
@@ -113,8 +116,8 @@ python token_benchmark_ray.py \
 --num-concurrent-requests 1 \
 --results-dir "result_outputs" \
 --llm-api "litellm" \
---additional-sampling-params '{}'
-
+--additional-sampling-params '{}' \
+--tokenizer "./tokenizers/llama-tokenizer"
 ```
 
 ### LiteLLM
@@ -135,7 +138,8 @@ python token_benchmark_ray.py \
 --num-concurrent-requests 1 \
 --results-dir "result_outputs" \
 --llm-api "litellm" \
---additional-sampling-params '{}'
+--additional-sampling-params '{}' \
+--tokenizer "./tokenizers/llama-tokenizer"
 
 ```
 
@@ -168,7 +172,8 @@ python token_benchmark_ray.py \
 --num-concurrent-requests 1 \
 --results-dir "result_outputs" \
 --llm-api "vertexai" \
---additional-sampling-params '{}'
+--additional-sampling-params '{}' \
+--tokenizer "./tokenizers/llama-tokenizer"
 
 ```
 
